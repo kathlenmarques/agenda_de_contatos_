@@ -1,0 +1,90 @@
+/*resetando configurações padrão*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'rubik', sans-serif;
+}
+
+/*estilização conteúdo do corpo*/
+body{
+    background-color:rgb(253, 254, 255);
+    padding-top: 100px;
+}
+
+/*estilização do container*/
+.container{
+max-width: 960px;
+width: 100%;
+margin: 0 auto; /*cria margem dos lados*/
+background-color: rgb(228, 215, 250);
+border-radius: 10px;
+border: 40px solid  rgb(228, 215, 250) ;
+}
+
+/*estilização do header*/
+header{
+    align-items: center; /*centralizando/alinhando itens */ 
+    display: flex;
+    margin-bottom: 40px;
+}
+header img{
+    width: 50px;
+    margin-right: 16px;
+}
+header h1{
+    font-size: 40px;
+}
+
+/*estilização do formulario*/
+form{
+    margin-bottom: 40px;
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+}
+form input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 230px;
+    margin-right:3px ;
+    background-color: rgb(253, 254, 255);
+}
+form button{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(104, 97, 148);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    cursor:pointer ;
+}
+form button:hover{
+    background-color: blueviolet;
+}
+form input:focus{
+    outline: none;
+}
+
+/*estilização da tabela*/
+table{
+    width: 100%;
+}
+table th {
+    border-bottom: 2px solid rgb(104, 97, 148); /*adiciona borda tamanho/tipo/cor/*/
+    padding: 6px;
+    font-size:18px ;
+    font-weight: bold;
+    
+}
+
+table td{
+    text-align: center; /*alinha textos*/
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(104, 97, 148, 0.459);
+}
+
+
